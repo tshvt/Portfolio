@@ -1,0 +1,206 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #091353;
+
+}
+
+h1, h2 {
+    font-weight: 800;
+    line-height:1.5;
+    font-size:250%;
+}
+
+h3 {
+    font-size:1.3rem;
+}
+
+p {
+    font-size:110%;
+}
+
+ul {
+    list-style-type:none;
+    padding:0px;
+}
+
+.colored-section {
+    background-color: #D5D5D5;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 2% 10%;
+}
+
+/* Navbar */
+
+.navbar {
+padding-bottom: 3.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 300;
+    color:#9D84B7 !important;
+}
+
+.nav-link:hover {
+    color:#091353 !important;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.brand {
+    width: 15%;
+    border-radius: 100%;
+}
+
+/* Title section */
+
+.test {
+border-radius: 0 0 30% 0;
+}
+
+#title {
+    text-align: center;
+    border-radius: 0 0 0 50%;
+}
+
+#title h1 {
+    font-family: 'Cherish', cursive;
+    font-size: 700%;
+    color: #9D84B7;
+}
+
+.code {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 20%;
+    height: 70%;
+}
+
+.code2 {
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+    width:20%;
+    height:50%;
+}
+
+.python {
+    margin-top:80px;
+    width: 400px;
+    height: 400px;
+}
+
+/* About me Section */
+
+#about-me {
+    text-align:center;
+    padding:100px 0px 0px 0px;
+
+}
+
+.about-me-col {
+    padding: 50px 20px;
+
+}
+
+.about-me-text {
+    line-height:1.7;
+    padding:30px;
+}
+
+.about-icon {
+    color:#9D84B7;
+}
+
+.about-icon:hover {
+    color:#091353;
+}
+
+/* Skills */
+
+#skills {
+    margin:5% 0%;
+    text-align:center;
+    border-radius: 30% 0 0 0%;
+    padding:70px 0;
+}
+
+#skills .about-icon {
+    padding:50px;
+}
+
+.skills-table {
+    color:#091353 !important;
+    margin-bottom:5%;
+}
+
+.git-ms-icon {
+    padding:0px 20px 0px 0px;
+}
+
+.git-ms-btn {
+    color:#9D84B7 !important;
+    margin-top:1%;
+    width:20%;
+
+}
+
+
+/* Footer Section */
+
+#contact {
+    text-align:center;
+    padding:100px 0px 150px 0px;
+}
+
+#footer {
+    text-align:center;
+    padding:100px 0 10px 0;
+    color:#9D84B7;
+}
+
+.footer-text {
+    font-size: 90%;
+}
+
+.footer-icon {
+    margin: 0px 30px 60px 30px;
+    color:#9D84B7
+}
+
+.footer-icon:hover {
+    color:#091353;
+}
+
+.boot-icon {
+    margin: 0 10px 0 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+    .code {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 20%;
+        height: 30%;
+    }
+
+    .code2 {
+        position: absolute;
+        bottom: 200px;
+        right: 0px;
+        width:20%;
+        height:30%;
+    }
+}
